@@ -124,7 +124,7 @@ def read_chat_history():
 def start_chat(spy):
     current_status_message=None
     spy.name = spy.salutation + " " + spy.name
-    if spy.age > 12 and sy.age < 50:
+    if spy.age > 12 and spy.age < 50:
         print "AUTHENTICATION COMPLETE. Welcome " + spy.name + " your  age  is " + str(spy.age) + " and rating " + str(
             spy.rating) +" out of 5"+ " we are Proud to have you. "
     show_menu = True
